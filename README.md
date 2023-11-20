@@ -63,13 +63,10 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 lib
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 lib/main.py --cfgs ./config/MsaffGait_GREW.yaml --phase test
 ```
 
-
-
 ## Citation
 Please cite this paper in your publications if it helps your research:
 
 ```BibTeX
-// 补充引用信息
 ```
 
 ## Acknowledgement
