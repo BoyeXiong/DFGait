@@ -52,15 +52,15 @@ python misc/pretreatment_grew_ske_probe.py --input_path "GREW" --output_path "GR
 
 Run the following command:
 ```bash
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 lib/main.py --cfgs ./config/MsaffGait_Gait3D.yaml --phase train
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 lib/main.py --cfgs ./config/MsaffGait_GREW.yaml --phase train
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 lib/main.py --cfgs ./config/gait_multimodal_Gait3D.yaml --phase train
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 lib/main.py --cfgs ./config/gait_multimodal_GREW.yaml --phase train
 ```
 
 ## Test
 Run the following command:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 lib/main.py --cfgs ./config/MsaffGait_Gait3D.yaml --phase test
-CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 lib/main.py --cfgs ./config/MsaffGait_GREW.yaml --phase test
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 lib/main.py --cfgs ./config/gait_multimodal_Gait3D.yaml --phase test
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 lib/main.py --cfgs ./config/gait_multimodal_GREW.yaml --phase test
 ```
 
 ## Citation
