@@ -20,7 +20,7 @@ You can replace the second command from the bottom to install
 based on your CUDA version.
 
 ```
-git clone [https://github.com/BoyeXiong/DFGait](https://github.com/BoyeXiong/DFGait.git)
+git clone https://github.com/BoyeXiong/DFGait.git
 cd DFGait
 conda create --name py37torch160 python=3.7
 conda activate py37torch160
