@@ -1,7 +1,7 @@
 # DFGait: Decomposition Fusion Representation Learning for Multimodal Gait Recognition 
 The article has been accepted by MMM2024
 
-![](C:\Users\11482\Desktop\DFGait特征解构\DFGait\pic\fig.jpg)
+![](DFGait\pic\fig.jpg)
 
 
 
