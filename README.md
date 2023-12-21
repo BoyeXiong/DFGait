@@ -3,8 +3,6 @@ The article has been accepted by MMM2024
 
 ![](pic/fig.jpg)
 
-
-
 ## Requirements
 - pytorch >= 1.6
 - torchvision
@@ -22,8 +20,8 @@ You can replace the second command from the bottom to install
 based on your CUDA version.
 
 ```
-git clone 
-cd 
+git clone https://github.com/BoyeXiong/DFGait
+cd DFGait
 conda create --name py37torch160 python=3.7
 conda activate py37torch160
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
