@@ -1,7 +1,7 @@
 # DFGait: Decomposition Fusion Representation Learning for Multimodal Gait Recognition 
 The article has been accepted by MMM2024
 
-![](pic/fig2.pdf)
+![](pic/fig2.jpg)
 
 ## Requirements
 - pytorch >= 1.6
