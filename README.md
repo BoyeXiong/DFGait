@@ -69,7 +69,7 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 lib
 Please cite this paper in your publications if it helps your research:
 
 ```BibTeX
-  @inproceedings{xiong2024dfgait,
+@inproceedings{xiong2024dfgait,
     title={DFGait: Decomposition Fusion Representation Learning for Multimodal Gait Recognition},
     author={Xiong, Jianbo and Zou, Shinan and Tang, Jin},
     booktitle={International Conference on Multimedia Modeling},
